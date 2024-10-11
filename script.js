@@ -14,6 +14,6 @@ function del() {
 
 function equal() {
     var text = document.getElementById("screen").value
-        var result = eval(text)
-        document.getElementById("screen").value = result
+    var result = eval(text)
+    document.getElementById("screen").value = result
 }
